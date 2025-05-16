@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    padding: 60px 20px 150px 20px; 
+    position: relative;
+    min-height: 100vh;
+}
+
+canvas {
+    border: 1px solid;
+    display: block;
+}
+
+#h1Texto {
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    width:100%;
+}
+
+h1 {
+    font-family: 'UnifrakturMaguntia';
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 11px;
+    -webkit-text-stroke: 0.2px black;
+}
+
+#h1Texto:hover {
+    color: #4a4a4a;
+}
+
+#pTexto {
+   text-align: center;
+    font-family: 'Pirata One';
+    font-size: 1.5em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 640px;
+    width: 600px;
+    transform: translateX(-50%);
+    left: 50%;
+    
+}
